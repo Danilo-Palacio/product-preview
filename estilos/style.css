@@ -13,11 +13,14 @@
 
     /*Primarias*/
     --color-dark-cyan:hsl(158, 36%, 37%);
-    --color-cream: hsl(30, 38%, 92%);
+    --color-cream: hsl(30, 38%, 92%);    
+    --color-dark-cyan2:hsl(158, 41%, 19%);
     /*Neutras*/
     --very-dark-blue: hsl(212, 21%, 14%);
     --Dark-grayish-blue: hsl(228, 12%, 48%);
     --white: hsl(0, 0%, 100%);
+
+    --brilho:brightness(50%);
 }
 
 body {
@@ -110,7 +113,9 @@ body {
 .precos>.antigo{
     text-decoration: line-through;
 }
+
 .tocart{
+    
     width: 90%;
     height: 50px;
     border-radius: 10px;
@@ -121,4 +126,8 @@ body {
     align-self: center;
     font-family: var(--monteserrat);
     font-weight: 700;
+}
+.tocart:hover{
+   background-color: var(--color-dark-cyan2);
+   cursor: pointer;
 }

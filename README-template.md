@@ -18,14 +18,16 @@ This is a solution to the [Product preview card component challenge on Frontend 
 
 **Observação: exclua esta observação e atualize o sumário com base nas seções que você mantém.**
 
-## Overview
+## Visão geral
+
+Primeiro projeto que realizei sozinho, sem video aulas ou junto com outra pessoa, então foi uma grande satisfação, ver que fiz todo o processo.
 
 ### The challenge
 
-Users should be able to:
+Os usuários devem ser capazes de:
 
-- View the optimal layout depending on their device's screen size
-- See hover and focus states for interactive elements
+- Veja o layout ideal dependendo do tamanho da tela do dispositivo
+- Veja os estados de foco e foco para elementos interativos
 
 ### Screenshot
 
