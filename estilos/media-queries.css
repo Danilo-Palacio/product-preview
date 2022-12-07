@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 700px){
+.viewport{
+    max-width: none;  
+}
+
+.menu{
+    width: 550px;
+    height: 65vh;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.info{
+height: 100%;
+width: 50%;
+}
+.image{
+    height: 100%;
+    width: 50%;
+    background-image: url(../images/image-product-desktop.jpg);
+}
+.tocart{
+}
+}

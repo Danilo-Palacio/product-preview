@@ -34,8 +34,9 @@ body {
    
 }
 .viewport{
-    width: 100vh;
+    width: 100vw;
     height: 100vh;
+    max-width: 375px;
 
 
     display: flex;
@@ -110,7 +111,7 @@ body {
     text-decoration: line-through;
 }
 .tocart{
-    width: 300px;
+    width: 90%;
     height: 50px;
     border-radius: 10px;
     background-color: var(--color-dark-cyan);
