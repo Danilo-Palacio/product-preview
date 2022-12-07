@@ -20,7 +20,7 @@
     --Dark-grayish-blue: hsl(228, 12%, 48%);
     --white: hsl(0, 0%, 100%);
 
-    --brilho:brightness(50%);
+    --shadoow:0px 0px 7px 0px rgba(0, 0, 0, 0.116);
 }
 
 body {
@@ -52,6 +52,7 @@ body {
     height: 92%;
     border-radius: 10px;
     overflow: hidden;
+    box-shadow: var(--shadoow);
 }
 
 
@@ -130,4 +131,13 @@ body {
 .tocart:hover{
    background-color: var(--color-dark-cyan2);
    cursor: pointer;
+}
+
+.attribution{
+    position: fixed;
+    bottom: 0px;
+    background-color: white;
+    padding: 5px 50px;
+    box-shadow: var(--shadoow);
+    border-radius: 5px 5px 0px 0px;
 }
