@@ -8,7 +8,7 @@
 */
 
 :root{
-    --monteserrat:'Montserrat', sans-serif;
+    --monteserrat:Montserrat, sans-serif;
     --fraunces: Fraunces, serif;
 
     /*Primarias*/
@@ -23,6 +23,101 @@
 body {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+    font-family: var(--monteserrat);
     font-size: 14px;/*Paragrafo*/
+    color: var(--Dark-grayish-blue);    
+    background-color: var(--color-cream);
+
+    display: flex;
+    justify-content: center;
+   
 }
-.image
+.viewport{
+    width: 100vh;
+    height: 100vh;
+
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.menu {
+    width: 90%;
+    height: 92%;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+
+.image{
+    background-image: url(../images/image-product-mobile.jpg);
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 40%;  
+
+}
+.info {
+    width: 100%;
+    height: 60%;
+    background-color: var(--white);
+    margin: 0;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.info > h2 {
+    font-weight: 500;
+    padding: 21px 20px 0px 20px;
+    font-size: 1em;
+    letter-spacing: 5px;
+    margin: 0;
+}
+.info > h1 {
+    padding: 5px 39px 5px 20px;
+    margin: 0;
+    font-size: 2.3em;
+    font-family: var(--fraunces);
+    font-weight: 700;
+    color: var(--very-dark-blue);
+    line-height: 37px;
+}
+.info>.paragrafo {
+    padding: 19px 25px 5px 20px;
+    margin: 0;
+    font-size: 1em;
+}
+.paragrafo>p{
+    margin: 0px;
+}
+.precos {
+    padding: 23px 2px 2px 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    gap: 20px;
+}
+.precos>.novo{
+    font-family: var(--fraunces);
+    font-size: 2.5em;
+    color: var(--color-dark-cyan);
+}
+.precos>.antigo{
+    text-decoration: line-through;
+}
+.tocart{
+    width: 300px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: var(--color-dark-cyan);
+    color: var(--white);
+    border: none;
+
+    align-self: center;
+    font-family: var(--monteserrat);
+    font-weight: 700;
+}
